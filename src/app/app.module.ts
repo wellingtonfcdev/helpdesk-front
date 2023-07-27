@@ -72,7 +72,7 @@ import { ToastrModule } from 'ngx-toastr';
 
     //componente que exibe uma notificação na tela
     ToastrModule.forRoot({
-      timeOut: 5000,
+      timeOut: 4000,
       closeButton: true,
       progressBar: true
     })
